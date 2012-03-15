@@ -5,4 +5,4 @@ Feature:
   
   Scenario: Starting the application
     Given I launch the app
-	Then I should see the main view
+	Then I should see the start page
