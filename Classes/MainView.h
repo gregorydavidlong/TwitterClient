@@ -7,10 +7,15 @@
 //
 
 #import <UIKit/UIKit.h>
+@class TwitterController;
 
 
 @interface MainView : UIViewController {
+	IBOutlet UITextField *usernameTextView;
 	IBOutlet UITextField *passwordTextView;
+	TwitterController *twitterController;
 }
+
+- (IBAction)login;
 
 @end

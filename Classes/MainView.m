@@ -7,7 +7,10 @@
 //
 
 #import "MainView.h"
+#import "TwitterController.h"
 
+#define KEY @"SS2pz3OYRsmCU24QViz4Q"
+#define SECRET @""
 
 @implementation MainView
 
@@ -27,6 +30,21 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 	[passwordTextView setSecureTextEntry: TRUE];
+	twitterController = [[TwitterController alloc] initWithKey:KEY secret:SECRET];
+	
+	// Start the engine
+	if (![twitterController isAuthorised])
+	{
+		UIViewController *viewController = [twitterController authorise];
+		
+		if (viewController)
+		{
+			// This will present a view to the user asking for permission to read their data
+			[self presentModalViewController:viewController animated:YES];
+		}
+		[viewController dealloc];
+	}
+	NSLog(@"Twitter Controller is authorised");
 }
 
 
@@ -53,7 +71,15 @@
 
 
 - (void)dealloc {
+	[twitterController dealloc];
     [super dealloc];
+}
+
+// Actions
+
+- (IBAction)login
+{
+	
 }
 
 
