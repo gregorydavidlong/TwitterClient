@@ -78,6 +78,8 @@
 		91A42CBD1511A9E900072213 /* TwitterController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91A42CBB1511A9E900072213 /* TwitterController.m */; };
 		91A42CD01511AC0900072213 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91A42CCF1511AC0900072213 /* SenTestingKit.framework */; };
 		91A42CDA1511AC3D00072213 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91A42CCF1511AC0900072213 /* SenTestingKit.framework */; };
+		91A42E731512EB5C00072213 /* SecretConstants.h in Sources */ = {isa = PBXBuildFile; fileRef = 91A42E721512EB5C00072213 /* SecretConstants.h */; };
+		91A42E741512EB5C00072213 /* SecretConstants.h in Sources */ = {isa = PBXBuildFile; fileRef = 91A42E721512EB5C00072213 /* SecretConstants.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -166,6 +168,7 @@
 		91A42CBB1511A9E900072213 /* TwitterController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwitterController.m; sourceTree = "<group>"; };
 		91A42CCF1511AC0900072213 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/Developer/Library/Frameworks/SenTestingKit.framework; sourceTree = "<absolute>"; };
 		91A42CF11511AD0700072213 /* UnitTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UnitTests-Info.plist"; sourceTree = "<group>"; };
+		91A42E721512EB5C00072213 /* SecretConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecretConstants.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -212,6 +215,7 @@
 				913EB57315117D4B00CA7A25 /* MainView.xib */,
 				91A42CBA1511A9E900072213 /* TwitterController.h */,
 				91A42CBB1511A9E900072213 /* TwitterController.m */,
+				91A42E721512EB5C00072213 /* SecretConstants.h */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -533,6 +537,7 @@
 				91A42CA41511A86B00072213 /* SA_OAuthTwitterController.m in Sources */,
 				91A42CA51511A86B00072213 /* SA_OAuthTwitterEngine.m in Sources */,
 				91A42CBC1511A9E900072213 /* TwitterController.m in Sources */,
+				91A42E731512EB5C00072213 /* SecretConstants.h in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -560,6 +565,7 @@
 				91A42C901511A86B00072213 /* SA_OAuthTwitterController.m in Sources */,
 				91A42C911511A86B00072213 /* SA_OAuthTwitterEngine.m in Sources */,
 				91A42CBD1511A9E900072213 /* TwitterController.m in Sources */,
+				91A42E741512EB5C00072213 /* SecretConstants.h in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

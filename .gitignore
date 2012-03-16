@@ -12,3 +12,10 @@ Snapshots
 
 # osx noise
 .DS_Store
+
+# vim
+*.swp
+
+# secure constants
+Classes/SecretConstants.h
+

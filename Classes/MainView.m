@@ -8,9 +8,8 @@
 
 #import "MainView.h"
 #import "TwitterController.h"
+#import "SecretConstants.h"
 
-#define KEY @"SS2pz3OYRsmCU24QViz4Q"
-#define SECRET @""
 
 @implementation MainView
 
